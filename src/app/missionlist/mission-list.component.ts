@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
+import {Mission} from "../models/missions";
 
 @Component({
   selector: 'app-missionlist',
@@ -34,9 +35,4 @@ export class MissionListComponent {
     });
   }
 }
-export interface Mission {
-  mission_name: string;
-  launch_year: string;
-  details: string;
-  mission_patch_small: string;
-}
+
