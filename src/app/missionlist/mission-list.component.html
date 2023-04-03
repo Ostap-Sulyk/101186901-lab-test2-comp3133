@@ -1,0 +1,7 @@
+<h1>SpaceX Mission Launch List</h1>
+<div *ngFor="let launch of launches">
+  <h2>{{launch.mission_name}}</h2>
+  <h3>{{launch.launch_year}}</h3>
+  <p>{{launch.details}}</p>
+  <p>{{launch.mission_patch_small}}</p>
+</div>
